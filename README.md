@@ -19,7 +19,7 @@ Also create a shortcut on the desktop to the executable. Right-click→Send to�
 - To boot with Windows XP, drag & drop shortcut onto start→All Programs→Startup.  It's the easiest!
 - To boot with Linux, configure System→Preferences→Personal→Startup Applications→Add→Browse→ahk_x11.AppImage→Open.
 
-To use dvorak as admin in Windows 10, right-click on the shortcut→Properties→Compatibility→Run this program as an administrator→OK.
+To use as admin in Windows 10, right-click on the shortcut→Properties→Compatibility→Run this program as an administrator→OK.
 
 ## App Versions
 - AutoHotkey64 is for v2.0.18.
