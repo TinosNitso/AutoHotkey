@@ -5,14 +5,14 @@
 
 For Windows/Linux dvorak users! Built for Windows (ahk-v2), Linux (v1.0) & Windows XP (v1.1).  There's LockWorkStation (RWIN), rename (!r), explorer (!e), duplicate (^d), Dvorak toggle (!^+d), transparency toggle (^t), AlwaysOnTop toggle (^SPACE), suspend/pause toggle (!^SPACE), TitleBar toggle (F12), grip toggle (^F12), window-list (F11) & ControlList (^F11).  The linux version is missing most of that (see tray menu).  
 
-![](doc/Screenshot64.png "v2") ![](doc/ScreenshotU32.png "v1.1") 
+![](doc/Screenshot64.png "v2") ![](doc/ScreenshotU32.png "v1.1") ![](doc/Screenshot_x11.png "v1.0")
 
 These scripts emulate CTRL with ALT, so copy/paste can be done with left thumb. My left pinky broke @school when I was young.
 
 ## Installation
 - On Windows use either `AutoHotkey64.ahk` or `AutoHotkey64.exe`.  The system keyboard should be QWERTY.  App is 1MiB.  AHK easily maps dvorak all by itself.
 - On Windows XP use either `AutoHotkeyU32.ahk` or `AutoHotkeyU32.exe`.  App is 1MiB.
-- On Linux use either `ahk_x11.ahk` or `ahk_x11.AppImage`.  The system keyboard should be dvorak.  App is 33MiB.
+- On Linux use either `ahk_x11.ahk` or `ahk_x11.AppImage`.  The system keyboard should be dvorak.  App is 33MiB. If it doesn't run, grant it the allow executing the file as program permission.
 
 All builds are easily reproducible. To use the scripts directly requires putting them alongside the [official](https://autohotkey.com) executable & double-clicking on it (`AutoHotkey64.exe`). Official `ahk_x11.AppImage` is [here](https://github.com/phil294/AHK_X11/releases).
 
