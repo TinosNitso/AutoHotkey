@@ -5,7 +5,7 @@
 
 For Windows/Linux dvorak users! Built for Windows (ahk-v2), Linux (v1.0) & Windows XP (v1.1).  There's LockWorkStation (RWIN), rename (!r), explorer (!e), duplicate (^d), Dvorak toggle (!^+d), transparency toggle (^t), AlwaysOnTop toggle (^SPACE), suspend/pause toggle (!^SPACE), TitleBar toggle (F12), grip toggle (^F12), window-list (F11) & ControlList (^F11).  The linux version is missing most of that (see tray menu).  
 
-![](doc/Screenshot64.png "v2") ![](doc/ScreenshotU32.png "v1.1") ![](doc/Screenshot_x11.png "v1.0")
+![](SCREENSHOTS.png)
 
 These scripts emulate CTRL with ALT, so copy/paste can be done with left thumb. My left pinky broke @school when I was young.
 
