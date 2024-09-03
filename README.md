@@ -39,14 +39,16 @@ AHKVersion is visible in all tray icon tips. See [SCREENSHOTS](SCREENSHOTS.png).
 - `ahk_x11.ahk` (based on 1.0.4) is from v1.0.24, from 2004!
 
 ## Reproducibility
-- `AutoHotkey64.exe` (v2) is data-reproducible. Use [7-Zip](https://7-zip.org) to extract everything into a new folder, then verify that folder's SHA-256 matches that of any other compilation's extraction.  The compiler puts unique metadata bytecode into the .exe, which is separate to all data contained within it. Sometimes it reproduces the same metadata, sometimes not.
-- `AutoHotkeyU32.exe` (v1.1) is data-reproducible. Uses the same compiler as v2. The compiler reports itself along with the entire stripped script in `\.rsrc\RCDATA\1`.  Right-click the .exe→7-Zip→Open Archive, then right-click→View the `1` file, located in .resources\RESOURCE COMPILER DATA. 
+- `AutoHotkey64.exe` (v2) is data-reproducible (1.2 MiB). Use [7-Zip](https://7-zip.org) to extract everything into a new folder, then verify that folder's SHA-256 matches that of any other compilation's extraction.
+- `AutoHotkeyU32.exe` (v1.1) is data-reproducible (.9 MiB). Uses the same compiler as v2. The compiler reports itself along with the entire stripped script in `\.rsrc\RCDATA\1`.  Right-click the .exe→7-Zip→Open Archive, then right-click→View the `1` file, located in .resources\RESOURCE COMPILER DATA. 
 - `AutoHotkey.exe` (v1.0) is not reproducible. It uses an old compiler, set to Lowest Compression.
-- `ahk_x11.AppImage` is fully reproducible.  Re-compile it using Phil's official compiler, & then check the SHA-256 matches.
+- `ahk_x11.AppImage` is data-reproducible (103 MiB).  Re-compile it using Phil's official compiler, & then check the SHA-256 of a full data extraction matches.
+
+The compilers put unique metadata bytecode into the .exe/.AppImage, which is separate to the data contained within the executables. Sometimes it reproduces the same metadata, sometimes not.
 
 ## Latest Updates
-- Win98 now supported, with `AutoHotkey.ahk` & `AutoHotkey.exe`.
-- Updated `doc` folder with `.chm` & `.pdf` help files, along with `.xml` npp integration.
+- Win98 now supported.
+- Updated [doc](doc) with `.chm` & `.pdf` help files, along with `.xml` npp integration.
 - Added script-options TRANSPARENT, NPP & EXPLORERS (initial lines).
 - `+F11` now gives 2 indexed popups, full process list followed by full class list.  `^F11` HWND bugfix.
 - Linux proper transparency toggle.  Redo bugfix `^*COLON`. Improved duplicate `^d` & `F11`.
