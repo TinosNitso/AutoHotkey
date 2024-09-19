@@ -20,11 +20,11 @@ For Windows/Linux dvorak users! Compiled for Windows (ahk-v2), Linux/Win98 (v1.0
 - Hidden-window-list `+F11`
 - ControlList `^F11`
 - Rename `!r`
-- Explorer `!e`.  
+- Explorer `!e`  
 
-These scripts emulate CTRL with ALT, so copy/paste can be done with left thumb. My left pinky is a bit awkward - it broke @school when I was young.
+These scripts emulate CTRL with ALT, so copy/paste can be done with left thumb. My left pinky is a bit awkward - it broke @school.
 
-![](SCREENSHOTS.png)
+![SCREENSHOTS](https://github.com/user-attachments/assets/c87f54f5-8187-4da5-80ae-c008b58e467f)
 
 ## Installation
 - On Windows use either `AutoHotkey64.ahk` or `AutoHotkey64.exe`.  App is 1.2 MiB. OS keyboard should be QWERTY.  AHK easily maps dvorak all by itself. Official releases are [here][official_v2].
