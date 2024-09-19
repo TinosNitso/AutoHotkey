@@ -1,15 +1,30 @@
 # AutoHotkey
+- [Intro](#intro)
 - [Installation](#installation)
 - [Startup @Boot](#startup-boot)
 - [Versions](#versions)
 - [Reproducibility](#reproducibility)
 - [Latest Updates](#latest-updates)
 
-For Windows/Linux dvorak users! Compiled for Windows (ahk-v2), Linux/Win98 (v1.0) & Windows XP (v1.1).  There's duplicate `^d`, dvorak toggle `^!+d`, transparency toggle `#t`, AlwaysOnTop toggle `#SPACE`, suspend `^!SPACE`, TitleBar toggle `F12`, grip toggle `^F12`, window-list `F11`, hidden-window-list `+F11`, ControlList `^F11`, rename `!r` & explorer `!e`.  The linux version is missing some of that (see tray menus).  
+## Intro
+For Windows/Linux dvorak users! Compiled for Windows (ahk-v2), Linux/Win98 (v1.0) & Windows XP (v1.1).  The linux version is missing some of these (see tray menus).  
 
-![](SCREENSHOTS.png)
+- Duplicate `^d`
+- Toggle dvorak `^!+d`
+- Toggle transparency `#t`
+- Toggle AlwaysOnTop `#SPACE`
+- Suspend `^!SPACE`
+- Toggle TitleBar `F12`
+- Toggle grip `^F12`
+- Window-list `F11`
+- Hidden-window-list `+F11`
+- ControlList `^F11`
+- Rename `!r`
+- Explorer `!e`.  
 
 These scripts emulate CTRL with ALT, so copy/paste can be done with left thumb. My left pinky is a bit awkward - it broke @school when I was young.
+
+![](SCREENSHOTS.png)
 
 ## Installation
 - On Windows use either `AutoHotkey64.ahk` or `AutoHotkey64.exe`.  App is 1.2 MiB. OS keyboard should be QWERTY.  AHK easily maps dvorak all by itself. Official releases are [here][official_v2].
